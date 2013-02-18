@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="main">
+	<class name="Locale" table="LOCALES">
+        <id name="id" column="LOCALE_ID">
+            <generator class="native"/>
+        </id>
+        <property name="type"/>
+    </class>
+</hibernate-mapping>
